@@ -1,0 +1,52 @@
+body {
+  font-size: 20px;
+  background-color: black;
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+}
+button{
+background-color:Red;
+}
+
+header {
+  position: relative;
+  top: 40px;
+}
+
+h1 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+form {
+  color: white;
+  text-align: center;
+}
+
+.forma {
+  border-radius: 5px;
+  width: 210px;
+  height: 25px;
+}
+
+img{
+height: 100px
+width: 100px}
+
+a,
+button {
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  background-color:

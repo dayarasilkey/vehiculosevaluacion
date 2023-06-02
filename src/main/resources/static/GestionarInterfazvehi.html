@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/estilos.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/funcion.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<img src="imagenes/negro.png" style="
+    height: 300px;
+"><br><br>
+
+<h1>Cliente App</h1>
+
+<!-- Formulario para buscar cliente por ID -->
+<form>
+    <label for="clienteId">ID del cliente:</label>
+    <input type="text" id="clienteId" name="clienteId">
+    <button type="button" onclick="buscarCliente()">Buscar</button>
+</form>
+
+<!-- Resultado de la búsqueda del cliente -->
+<div id="resultadoBusqueda"></div><br><br>
+
+<!-- Formulario para agregar un nuevo cliente -->
+<form>
+    <label for="txtId">Id Cliente:</label>
+    <input type="text" class="form-control" id="txtId" placeholder="Ingrese Id ">
+
+    <label for="txtId">Direccion:</label>
+    <input type="text" class="form-control" id="Tipo" placeholder="Ingrese Direccion">
+
+
+    <label for="txtId">Nombre:</label>
+    <input type="text" class="form-control" id="Nombre" placeholder="Ingrese su Nombre">
+    <br><br> <br>
+
+
+    <button type="button" class="btn btn-dark" id="btnGuardarUsuario" onclick="AgregarUsuario">Agregar</button>
+
+    <button type="button" class="btn btn-dark" id="listar" onclick="listarClientes">listar</button>
+
+    <button type="button" class="btn btn-dark" id="eliminar" onclick="EliminarUsuario">Eliminar</button>
+    <br><br>
+
+</form>
+
+<div class="container">
+    <h2>Lista de clientes agregados</h2>
+    <table class="table table-hover" id="UsuariosTabla">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Direccion</th>
+            <th>Nombre</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+
+<script src="interfaz.js"></script>
+<script src="funcionalidaddatos.js"></script>
+<script src="enviar.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
